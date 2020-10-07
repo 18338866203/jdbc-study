@@ -26,7 +26,7 @@ public class BlobTest {
             ps.setObject(1,"袁浩");
             ps.setObject(2,"yuan@qq.com");
             ps.setObject(3,"1992-09-08");
-            FileInputStream fis = new FileInputStream(new File("playgirl.jpg"));
+            FileInputStream fis = new FileInputStream(new File("girl.jpg"));
             ps.setBlob(4,fis);
             ps.execute();
         } catch (Exception e) {
